@@ -1,0 +1,80 @@
+{
+  "version": 8,
+  "name": "Empty Style",
+  "metadata": {"maputnik:renderer": "mbgljs"},
+  "sources": {
+    "Fbis": {"type": "vector", "url": "http://localhost:8004/services/fbis"}
+  },
+  "sprite": "",
+  "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "Invertebrate risk - Very High",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "invert_risk",
+      "filter": ["all", ["==", "RISK CATEG", "Very High"]],
+      "paint": {
+        "fill-color": "rgba(252, 0, 0, 1)",
+        "fill-outline-color": "rgba(0, 0, 0, 0.03)"
+      }
+    },
+    {
+      "id": "Invertebrate risk - High",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "invert_risk",
+      "filter": ["all", ["==", "RISK CATEG", "High"]],
+      "paint": {
+        "fill-color": "rgba(255, 117, 61, 1)",
+        "fill-outline-color": "rgba(0, 0, 0, 0.03)"
+      }
+    },
+    {
+      "id": "Invertebrate risk -Medium",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "invert_risk",
+      "filter": ["all", ["==", "RISK CATEG", "Medium"]],
+      "paint": {
+        "fill-color": "rgba(255, 199, 126, 1)",
+        "fill-outline-color": "rgba(0, 0, 0, 0.03)"
+      }
+    },
+    {
+      "id": "Invertebrate risk - Low",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "invert_risk",
+      "filter": ["all", ["==", "RISK CATEG", "Low"]],
+      "paint": {
+        "fill-color": "rgba(255, 255, 192, 1)",
+        "fill-outline-color": "rgba(0, 0, 0, 0.03)"
+      }
+    },
+    {
+      "id": "Invertebrate risk - Very Low",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "invert_risk",
+      "filter": ["all", ["==", "RISK CATEG", "Very Low"]],
+      "paint": {
+        "fill-color": "rgba(103, 193, 173, 1)",
+        "fill-outline-color": "rgba(0, 0, 0, 0.03)"
+      }
+    },
+    {
+      "id": "Invertebrate risk - No Application",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "invert_risk",
+      "filter": ["all", ["==", "RISK CATEG", "No Applica"]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(211, 211, 211, 1)",
+        "fill-outline-color": "rgba(0, 0, 0, 0.03)"
+      }
+    }
+  ],
+  "id": "fqlvjxmon"
+}

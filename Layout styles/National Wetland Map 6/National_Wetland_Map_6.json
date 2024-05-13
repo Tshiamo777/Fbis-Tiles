@@ -1,0 +1,85 @@
+{
+  "version": 8,
+  "name": "Empty Style",
+  "metadata": {"maputnik:renderer": "mbgljs"},
+  "sources": {
+    "Fbis": {"type": "vector", "url": "http://localhost:8003/services/fbis"}
+  },
+  "sprite": "",
+  "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "nwm6-Channelled valley_bottom",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "nwm6_beta_v3_20230714",
+      "filter": ["all", ["==", "HGM_TYPE", "Channelled valley-bottom"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(196, 228, 255, 1)"}
+    },
+    {
+      "id": "nwm6-Unchannelled valley-bottom",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "nwm6_beta_v3_20230714",
+      "filter": ["all", ["==", "HGM_TYPE", "Unchannelled valley-bottom"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(211, 255, 206, 1)"}
+    },
+    {
+      "id": "nwm6-Floodplain",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "nwm6_beta_v3_20230714",
+      "filter": ["all", ["==", "HGM_TYPE", "Floodplain"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(208, 228, 205, 1)"}
+    },
+    {
+      "id": "nwm6-Seep",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "nwm6_beta_v3_20230714",
+      "filter": ["all", ["==", "HGM_TYPE", "Seep"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(255, 237, 204, 1)"}
+    },
+    {
+      "id": "nwm6-Depression",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "nwm6_beta_v3_20230714",
+      "filter": ["all", ["==", "HGM_TYPE", "Depression"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(233, 247, 243, 1)"}
+    },
+    {
+      "id": "nwm6-Wetland Flat",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "nwm6_beta_v3_20230714",
+      "filter": ["all", ["==", "HGM_TYPE", "Wetland Flat"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(250, 223, 224, 1)"}
+    },
+    {
+      "id": "nwm6-River",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "nwm6_beta_v3_20230714",
+      "filter": ["all", ["==", "HGM_TYPE", "River"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(241, 246, 255, 1)"}
+    },
+    {
+      "id": "nwm6-Estuary",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "nwm6_beta_v3_20230714",
+      "filter": ["all", ["==", "HGM_TYPE", "Estuary"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(189, 255, 245, 1)"}
+    }
+  ],
+  "id": "dcuw659g3"
+}

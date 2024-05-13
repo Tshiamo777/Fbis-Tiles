@@ -1,0 +1,85 @@
+{
+  "version": 8,
+  "name": "Empty Style",
+  "metadata": {"maputnik:renderer": "mbgljs"},
+  "sources": {
+    "Fbis": {"type": "vector", "url": "http://localhost:8004/services/fbis"}
+  },
+  "sprite": "",
+  "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "Protected Areas - Forest Nature Reserve",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "protected_areas",
+      "filter": ["all", ["==", "SITE_TYPE", "Forest Nature Reserve"]],
+      "paint": {"fill-color": "rgba(0, 189, 43, 1)"}
+    },
+    {
+      "id": "Protected Areas - Forest Wilderness Area",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "protected_areas",
+      "filter": ["all", ["==", "SITE_TYPE", "Forest Wilderness Area"]],
+      "paint": {"fill-color": "rgba(130, 223, 102, 1)"}
+    },
+    {
+      "id": "Protected Areas - Marine Protected Area",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "protected_areas",
+      "filter": ["all", ["==", "SITE_TYPE", "Marine Protected Area"]],
+      "paint": {"fill-color": "rgba(105, 165, 255, 1)"}
+    },
+    {
+      "id": "Protected Areas - Mountain Catchment Area",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "protected_areas",
+      "filter": ["all", ["==", "SITE_TYPE", "Mountain Catchment Area"]],
+      "paint": {"fill-color": "rgba(0, 145, 114, 1)"}
+    },
+    {
+      "id": "Protected Areas - National Park",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "protected_areas",
+      "filter": ["all", ["==", "SITE_TYPE", "National Park"]],
+      "paint": {"fill-color": "rgba(0, 104, 39, 1)"}
+    },
+    {
+      "id": "Protected Areas -  Nature Reserve",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "protected_areas",
+      "filter": ["all", ["==", "SITE_TYPE", "Nature Reserve"]],
+      "paint": {"fill-color": "rgba(128, 144, 66, 1)"}
+    },
+    {
+      "id": "Protected Areas -  Protected Environment",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "protected_areas",
+      "filter": ["all", ["==", "SITE_TYPE", "Protected Environment"]],
+      "paint": {"fill-color": "rgba(220, 197, 156, 1)"}
+    },
+    {
+      "id": "Protected Areas -  Special Nature Reserve",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "protected_areas",
+      "filter": ["all", ["==", "SITE_TYPE", "Special Nature Reserve"]],
+      "paint": {"fill-color": "rgba(156, 54, 62, 1)"}
+    },
+    {
+      "id": "Protected Areas -  World Heritage Site",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "protected_areas",
+      "filter": ["all", ["==", "SITE_TYPE", "World Heritage Site"]],
+      "paint": {"fill-color": "rgba(43, 61, 163, 1)"}
+    }
+  ],
+  "id": "fqlvjxmon"
+}

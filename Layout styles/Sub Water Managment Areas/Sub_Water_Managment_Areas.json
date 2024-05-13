@@ -1,0 +1,21 @@
+{
+  "version": 8,
+  "name": "Empty Style",
+  "metadata": {"maputnik:renderer": "mbgljs"},
+  "sources": {
+    "Fbis": {"type": "vector", "url": "http://localhost:8001/services/fbis"}
+  },
+  "sprite": "",
+  "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "Sub Water Managment Areas",
+      "type": "line",
+      "source": "Fbis",
+      "source-layer": "sub_wmas",
+      "filter": ["all"],
+      "paint": {"line-color": "rgba(176, 218, 234, 1)"}
+    }
+  ],
+  "id": "dcuw659g3"
+}

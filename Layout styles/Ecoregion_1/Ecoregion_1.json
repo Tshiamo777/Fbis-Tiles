@@ -1,0 +1,292 @@
+{
+  "version": 8,
+  "name": "Empty Style",
+  "metadata": {"maputnik:renderer": "mbgljs"},
+  "sources": {
+    "FBis": {"type": "vector", "url": "http://localhost:8004/services/fbis"}
+  },
+  "sprite": "",
+  "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "Ecoregion_level 1-Bushveld basin",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "ecoregion_level_1",
+      "filter": ["all", ["==", "ECOREGION", "BUSHVELD BASIN"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(22, 222, 159, 1)"}
+    },
+    {
+      "id": "Ecoregion_level 1-Drought corridor",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "ecoregion_level_1",
+      "filter": ["all", ["==", "ECOREGION", "DROUGHT CORRIDOR"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(140, 216, 113, 1)"}
+    },
+    {
+      "id": "Ecoregion_level 1-Eastern Bankenveld",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "ecoregion_level_1",
+      "filter": ["all", ["==", "ECOREGION", "EASTERN BANKENVELD"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(229, 175, 134, 1)"}
+    },
+    {
+      "id": "Ecoregion_level 1-Eastern Coastal Belt",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "ecoregion_level_1",
+      "filter": ["all", ["==", "ECOREGION", "EASTERN COASTAL BELT"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(87, 162, 219, 1)"}
+    },
+    {
+      "id": "Ecoregion_level 1-Eastern Escarpment Mountains",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "ecoregion_level_1",
+      "filter": ["all", ["==", "ECOREGION", "EASTERN ESCARPMENT MOUNTAINS"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(28, 60, 205, 1)"}
+    },
+    {
+      "id": "Ecoregion_level 1-Ghaap Plataeu",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "ecoregion_level_1",
+      "filter": ["all", ["==", "ECOREGION", "GHAAP PLATEAU"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(209, 50, 159, 1)"}
+    },
+    {
+      "id": "Ecoregion_level 1-Great Karoo",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "ecoregion_level_1",
+      "filter": ["all", ["==", "ECOREGION", "GREAT KAROO"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(188, 36, 238, 1)"}
+    },
+    {
+      "id": "Ecoregion_level 1-Highveld",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "ecoregion_level_1",
+      "filter": ["all", ["==", "ECOREGION", "HIGHVELD"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(202, 170, 39, 1)"}
+    },
+    {
+      "id": "Ecoregion_level 1-Lebombo Uplands",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "ecoregion_level_1",
+      "filter": ["all", ["==", "ECOREGION", "LEBOMBO UPLANDS"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(226, 19, 123, 1)"}
+    },
+    {
+      "id": "Ecoregion_level 1-Limpopo Plain",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "ecoregion_level_1",
+      "filter": ["all", ["==", "ECOREGION", "LIMPOPO PLAIN"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(231, 144, 140, 1)"}
+    },
+    {
+      "id": "Ecoregion_level 1-Lowveld",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "ecoregion_level_1",
+      "filter": ["all", ["==", "ECOREGION", "LOWVELD"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(217, 126, 207, 1)"}
+    },
+    {
+      "id": "Ecoregion_level 1-Nama Karoo",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "ecoregion_level_1",
+      "filter": ["all", ["==", "ECOREGION", "NAMA KAROO"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(79, 205, 140, 1)"}
+    },
+    {
+      "id": "Ecoregion_level 1-Namaqua Highlands",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "ecoregion_level_1",
+      "filter": ["all", ["==", "ECOREGION", "NAMAQUA HIGHLANDS"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(202, 202, 89, 1)"}
+    },
+    {
+      "id": "Ecoregion_level 1-Natal Coastal Plain",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "ecoregion_level_1",
+      "filter": ["all", ["==", "ECOREGION", "NATAL COASTAL PLAIN"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(215, 162, 77, 1)"}
+    },
+    {
+      "id": "Ecoregion_level 1-North Eastern Coastalbelt",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "ecoregion_level_1",
+      "filter": ["all", ["==", "ECOREGION", "NORTH EASTERN COASTAL BELT"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(224, 100, 59, 1)"}
+    },
+    {
+      "id": "Ecoregion_level 1-North Eastern Highlands",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "ecoregion_level_1",
+      "filter": ["all", ["==", "ECOREGION", "NORTH EASTERN HIGHLANDS"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(106, 215, 119, 1)"}
+    },
+    {
+      "id": "Ecoregion_level 1-North Eastern Uplands",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "ecoregion_level_1",
+      "filter": ["all", ["==", "ECOREGION", "NORTH EASTERN UPLANDS"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(176, 125, 215, 1)"}
+    },
+    {
+      "id": "Ecoregion_level 1-Northern Escarpment Mountains",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "ecoregion_level_1",
+      "filter": ["all", ["==", "ECOREGION", "NORTHERN ESCARPMENT MOUNTAINS"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(130, 63, 239, 1)"}
+    },
+    {
+      "id": "Ecoregion_level 1-Northern Plateau",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "ecoregion_level_1",
+      "filter": ["all", ["==", "ECOREGION", "NORTHERN PLATEAU"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(227, 93, 236, 1)"}
+    },
+    {
+      "id": "Ecoregion_level 1-Orange River Gorge",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "ecoregion_level_1",
+      "filter": ["all", ["==", "ECOREGION", "ORANGE RIVER GORGE"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(57, 176, 212, 1)"}
+    },
+    {
+      "id": "Ecoregion_level 1-South Eastern Coastal Belt",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "ecoregion_level_1",
+      "filter": ["all", ["==", "ECOREGION", "SOUTH EASTERN COASTAL BELT"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(206, 47, 97, 1)"}
+    },
+    {
+      "id": "Ecoregion_level 1-South Eastern Uplands",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "ecoregion_level_1",
+      "filter": ["all", ["==", "ECOREGION", "SOUTH EASTERN UPLANDS"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(106, 205, 25, 1)"}
+    },
+    {
+      "id": "Ecoregion_level 1-South Western Coastal Belt",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "ecoregion_level_1",
+      "filter": ["all", ["==", "ECOREGION", "SOUTH WESTERN COASTAL BELT"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(25, 231, 204, 1)"}
+    },
+    {
+      "id": "Ecoregion_level 1-Southern Coastal Belt",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "ecoregion_level_1",
+      "filter": ["all", ["==", "ECOREGION", "SOUTHERN COASTAL BELT"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(197, 228, 55, 1)"}
+    },
+    {
+      "id": "Ecoregion_level 1-Southen Fold Mountains",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "ecoregion_level_1",
+      "filter": ["all", ["==", "ECOREGION", "SOUTHERN FOLDED MOUNTAINS"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(120, 120, 236, 1)"}
+    },
+    {
+      "id": "Ecoregion_level 1-Southern Kalahari",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "ecoregion_level_1",
+      "filter": ["all", ["==", "ECOREGION", "SOUTHERN KALAHARI"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(91, 60, 231, 1)"}
+    },
+    {
+      "id": "Ecoregion_level 1-Soutpansberg",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "ecoregion_level_1",
+      "filter": ["all", ["==", "ECOREGION", "SOUTPANSBERG"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(38, 240, 99, 1)"}
+    },
+    {
+      "id": "Ecoregion_level 1-Waterberg",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "ecoregion_level_1",
+      "filter": ["all", ["==", "ECOREGION", "WATERBERG"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(51, 114, 223, 1)"}
+    },
+    {
+      "id": "Ecoregion_level 1-Western Bankenveld",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "ecoregion_level_1",
+      "filter": ["all", ["==", "ECOREGION", "WESTERN BANKENVELD"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(161, 228, 43, 1)"}
+    },
+    {
+      "id": "Ecoregion_level 1-Western Coastal Belt",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "ecoregion_level_1",
+      "filter": ["all", ["==", "ECOREGION", "WESTERN COASTAL BELT"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(227, 60, 83, 1)"}
+    },
+    {
+      "id": "Ecoregion_level 1-Western Folded Mountains",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "ecoregion_level_1",
+      "filter": ["all", ["==", "ECOREGION", "WESTERN FOLDED MOUNTAINS"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(99, 212, 91, 1)"}
+    }
+  ],
+  "id": "91q25yhro"
+}

@@ -1,0 +1,97 @@
+{
+  "version": 8,
+  "name": "Empty Style",
+  "metadata": {"maputnik:renderer": "mbgljs"},
+  "sources": {
+    "Fbis": {"type": "vector", "url": "http://localhost:8004/services/fbis"}
+  },
+  "sprite": "",
+  "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "CBA National, Eastern Cape",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "cba_national",
+      "filter": [
+        "all",
+        ["==", "SOURCE", "Eastern Cape Biodiversity Conservation Plan 2017"]
+      ],
+      "paint": {"fill-color": "rgba(224, 12, 141, 1)"}
+    },
+    {
+      "id": "CBA National, Free State",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "cba_national",
+      "filter": ["all", ["==", "SOURCE", "Free State Biodiversity Plan 2015"]],
+      "paint": {"fill-color": "rgba(95, 69, 233, 1)"}
+    },
+    {
+      "id": "CBA National, Gauteng",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "cba_national",
+      "filter": ["all", ["==", "SOURCE", "Gauteng Conservation Plan 2011"]],
+      "paint": {"fill-color": "rgba(199, 229, 60, 1)"}
+    },
+    {
+      "id": "CBA National, KZN",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "cba_national",
+      "filter": ["all", ["==", "SOURCE", "KZN CBA 2016"]],
+      "paint": {"fill-color": "rgba(222, 159, 102, 1)"}
+    },
+    {
+      "id": "CBA National, Limpopo",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "cba_national",
+      "filter": ["all", ["==", "SOURCE", "Limpopo Conservation Plan 2013"]],
+      "paint": {"fill-color": "rgba(0, 239, 119, 1)"}
+    },
+    {
+      "id": "CBA National, Mpumalanga",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "cba_national",
+      "filter": [
+        "all",
+        ["==", "SOURCE", "Mpumalanga Biodiversity Sector Plan 2014"]
+      ],
+      "paint": {"fill-color": "rgba(200, 111, 207, 1)"}
+    },
+    {
+      "id": "CBA National, North West",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "cba_national",
+      "filter": [
+        "all",
+        ["==", "SOURCE", "North West Biodiversity Sector Plan 2015"]
+      ],
+      "paint": {"fill-color": "rgba(89, 165, 225, 1)"}
+    },
+    {
+      "id": "CBA National, Nothern Cape",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "cba_national",
+      "filter": ["all", ["==", "SOURCE", "Northern Cape CBA Map 2016"]],
+      "paint": {"fill-color": "rgba(0, 220, 211, 1)"}
+    },
+    {
+      "id": "CBA National, Western Cape",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "cba_national",
+      "filter": [
+        "all",
+        ["==", "SOURCE", "Western Cape Biodiversity Spatial Plan 2017"]
+      ],
+      "paint": {"fill-color": "rgba(0, 232, 58, 1)"}
+    }
+  ],
+  "id": "fqlvjxmon"
+}

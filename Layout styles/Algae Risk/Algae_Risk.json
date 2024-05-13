@@ -1,0 +1,84 @@
+{
+  "version": 8,
+  "name": "Empty Style",
+  "metadata": {"maputnik:renderer": "mbgljs"},
+  "sources": {
+    "FBis": {"type": "vector", "url": "http://localhost:8004/services/fbis"}
+  },
+  "sprite": "",
+  "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "Algae risk-Very High",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "algae_risk",
+      "filter": ["all", ["==", "RISK CATEG", "Very High"]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(227, 26, 28, 1)",
+        "fill-outline-color": "rgba(16, 15, 15, 0.05)"
+      }
+    },
+    {
+      "id": "Algae risk-High",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "algae_risk",
+      "filter": ["all", ["==", "RISK CATEG", "High"]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(240, 124, 74, 1)",
+        "fill-outline-color": "rgba(16, 15, 15, 0.05)"
+      }
+    },
+    {
+      "id": "Algae risk-Medium",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "algae_risk",
+      "filter": ["all", ["==", "RISK CATEG", "Medium"]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(254, 201, 128, 1)",
+        "fill-outline-color": "rgba(16, 15, 15, 0.05)"
+      }
+    },
+    {
+      "id": "Algae risk-Low",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "algae_risk",
+      "filter": ["all", ["==", "RISK CATEG", "Low"]],
+      "paint": {
+        "fill-color": "rgba(251, 251, 188, 1)",
+        "fill-outline-color": "rgba(16, 15, 15, 0.05)"
+      }
+    },
+    {
+      "id": "Algae risk-Very Low",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "algae_risk",
+      "filter": ["all", ["==", "RISK CATEG", "Very Low"]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(128, 191, 171, 1)",
+        "fill-outline-color": "rgba(16, 15, 15, 0.05)"
+      }
+    },
+    {
+      "id": "Algae risk-No Application",
+      "type": "fill",
+      "source": "FBis",
+      "source-layer": "algae_risk",
+      "filter": ["all", ["==", "RISK CATEG", "No Applica"]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(211, 211, 211, 1)",
+        "fill-outline-color": "rgba(16, 15, 15, 0.05)"
+      }
+    }
+  ],
+  "id": "91q25yhro"
+}

@@ -1,0 +1,76 @@
+{
+  "version": 8,
+  "name": "Empty Style",
+  "metadata": {"maputnik:renderer": "mbgljs"},
+  "sources": {
+    "Fbis": {"type": "vector", "url": "http://localhost:8004/services/fbis"}
+  },
+  "sprite": "",
+  "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "wetlands-channelled valley-bottom",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "nwm6_beta_v3_20230714",
+      "filter": ["all", ["==", "HGM_TYPE", "Channelled valley-bottom"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(204, 227, 255, 1)"}
+    },
+    {
+      "id": "wetlands-Unchannelled valley-bottom",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "nwm6_beta_v3_20230714",
+      "filter": ["all", ["==", "HGM_TYPE", "Unchannelled valley-bottom"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(221, 255, 204, 1)"}
+    },
+    {
+      "id": "wetlands-Seep",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "nwm6_beta_v3_20230714",
+      "filter": ["all", ["==", "HGM_TYPE", "Seep"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(255, 238, 204, 1)"}
+    },
+    {
+      "id": "wetlands-Floodplain",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "nwm6_beta_v3_20230714",
+      "filter": ["all", ["==", "HGM_TYPE", "Floodplain"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(212, 227, 204, 1)"}
+    },
+    {
+      "id": "wetlands-Depression",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "nwm6_beta_v3_20230714",
+      "filter": ["all", ["==", "HGM_TYPE", "Depression"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(236, 247, 243, 1)"}
+    },
+    {
+      "id": "wetlands-River",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "nwm6_beta_v3_20230714",
+      "filter": ["all", ["==", "HGM_TYPE", "River"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(242, 246, 255, 1)"}
+    },
+    {
+      "id": "wetlands-Estuary",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "nwm6_beta_v3_20230714",
+      "filter": ["all", ["==", "HGM_TYPE", "Estuary"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(205, 255, 243, 1)"}
+    }
+  ],
+  "id": "joxp5epg9"
+}

@@ -1,0 +1,37 @@
+{
+  "version": 8,
+  "name": "Empty Style",
+  "metadata": {"maputnik:renderer": "mbgljs"},
+  "sources": {
+    "Fbis": {"type": "vector", "url": "http://localhost:8001/services/fbis"}
+  },
+  "sprite": "",
+  "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "Thermal Framework-Upland",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "thermal_framework",
+      "filter": ["all", ["==", "ZONE", "Upland"]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(0, 205, 47, 1)",
+        "fill-outline-color": "rgba(0, 0, 0, 0.01)"
+      }
+    },
+    {
+      "id": "Thermal Framework-Lowland",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "thermal_framework",
+      "filter": ["all", ["==", "ZONE", "Lowland"]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(0, 162, 57, 1)",
+        "fill-outline-color": "rgba(0, 0, 0, 0.03)"
+      }
+    }
+  ],
+  "id": "dcuw659g3"
+}

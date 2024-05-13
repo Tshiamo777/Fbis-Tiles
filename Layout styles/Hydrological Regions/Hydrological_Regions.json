@@ -1,0 +1,97 @@
+{
+  "version": 8,
+  "name": "Empty Style",
+  "metadata": {"maputnik:renderer": "mbgljs"},
+  "sources": {
+    "Fbis": {"type": "vector", "url": "http://localhost:8001/services/fbis"}
+  },
+  "sprite": "",
+  "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "Hydrological regions-Upper orange/ Vaal-copy",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "hydrological_regions_dd",
+      "filter": [
+        "all",
+        ["==", "HYDROLO_01", "Upper Orange/ Vaal (late summer)"]
+      ],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(92, 176, 211, 0.58)"}
+    },
+    {
+      "id": "Hydrological regions-Karoo (autumn)",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "hydrological_regions_dd",
+      "filter": ["all", ["==", "HYDROLO_01", "Karoo (autumn)"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(238, 110, 200, 0.58)"}
+    },
+    {
+      "id": "Hydrological regions- Limpopo and Highveld",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "hydrological_regions_dd",
+      "filter": [
+        "all",
+        ["==", "HYDROLO_01", "Limpopo and Highveld (early/ mid-summer)"]
+      ],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(255, 180, 94, 0.58)"}
+    },
+    {
+      "id": "Hydrological regions-SE uplands",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "hydrological_regions_dd",
+      "filter": ["all", ["==", "HYDROLO_01", "SE Uplands (mid/late-summer)"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(255, 255, 95, 0.58)"}
+    },
+    {
+      "id": "Hydrological regions-Thukela and Escarpment",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "hydrological_regions_dd",
+      "filter": [
+        "all",
+        ["==", "HYDROLO_01", "Thukela and Escarpment (mid-summer)"]
+      ],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(0, 238, 132, 0.58)"}
+    },
+    {
+      "id": "Hydrological regions-Western Cape",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "hydrological_regions_dd",
+      "filter": ["all", ["==", "HYDROLO_01", "Western Cape (winter)"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(255, 77, 112, 0.58)"}
+    },
+    {
+      "id": "Hydrological regions-Lower Orange",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "hydrological_regions_dd",
+      "filter": ["all", ["==", "HYDROLO_01", "Lower Orange (autumn/ winter)"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(168, 112, 186, 0.58)"}
+    },
+    {
+      "id": "Hydrological regions- Southern Cape coastal",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "hydrological_regions_dd",
+      "filter": [
+        "all",
+        ["==", "HYDROLO_01", "Southern Cape coastal (all year)"]
+      ],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(57, 170, 95, 0.58)"}
+    }
+  ],
+  "id": "dcuw659g3"
+}

@@ -1,0 +1,79 @@
+{
+  "version": 8,
+  "name": "Empty Style",
+  "metadata": {"maputnik:renderer": "mbgljs"},
+  "sources": {
+    "Fbis": {"type": "vector", "url": "http://localhost:8004/services/fbis"}
+  },
+  "sprite": "",
+  "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "Mean Annual Percipitation - 400",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "MAP_zones",
+      "filter": ["all", ["==", "MAP", 400]],
+      "paint": {
+        "fill-color": "rgba(247, 251, 255, 1)",
+        "fill-outline-color": "#000000"
+      }
+    },
+    {
+      "id": "Mean Annual Percipitation - 600",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "MAP_zones",
+      "filter": ["all", ["==", "MAP", 600]],
+      "paint": {
+        "fill-color": "rgba(215, 232, 246, 1)",
+        "fill-outline-color": "#000000"
+      }
+    },
+    {
+      "id": "Mean Annual Percipitation - 800",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "MAP_zones",
+      "filter": ["all", ["==", "MAP", 800]],
+      "paint": {
+        "fill-color": "rgba(173, 215, 234, 1)",
+        "fill-outline-color": "#000000"
+      }
+    },
+    {
+      "id": "Mean Annual Percipitation - 1000",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "MAP_zones",
+      "filter": ["all", ["==", "MAP", 1000]],
+      "paint": {
+        "fill-color": "rgba(105, 188, 221, 1)",
+        "fill-outline-color": "#000000"
+      }
+    },
+    {
+      "id": "Mean Annual Percipitation - 1200",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "MAP_zones",
+      "filter": ["all", ["==", "MAP", 1200]],
+      "paint": {
+        "fill-color": "rgba(30, 155, 203, 1)",
+        "fill-outline-color": "#000000"
+      }
+    },
+    {
+      "id": "Mean Annual Percipitation - 4000",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "MAP_zones",
+      "filter": ["all", ["==", "MAP", 4000]],
+      "paint": {
+        "fill-color": "rgba(0, 116, 178, 1)",
+        "fill-outline-color": "#000000"
+      }
+    }
+  ],
+  "id": "fqlvjxmon"
+}

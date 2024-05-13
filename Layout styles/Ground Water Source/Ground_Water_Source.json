@@ -1,0 +1,20 @@
+{
+  "version": 8,
+  "name": "Empty Style",
+  "metadata": {"maputnik:renderer": "mbgljs"},
+  "sources": {
+    "Fbis": {"type": "vector", "url": "http://localhost:8004/services/fbis"}
+  },
+  "sprite": "",
+  "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "Ground Water source",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "ground_strategic_water_source_2017",
+      "paint": {"fill-color": "rgba(128, 148, 178, 1)"}
+    }
+  ],
+  "id": "fqlvjxmon"
+}

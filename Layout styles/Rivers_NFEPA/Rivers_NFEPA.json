@@ -1,0 +1,73 @@
+{
+  "version": 8,
+  "name": "Empty Style",
+  "metadata": {"maputnik:renderer": "mbgljs"},
+  "sources": {
+    "Fbis": {"type": "vector", "url": "http://localhost:8001/services/fbis"}
+  },
+  "sprite": "",
+  "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "NFEPA rivers-Upsteam",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "rivers_nfepa",
+      "filter": ["all", ["==", "NAME", "Upstream"]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "rgba(219, 0, 0, 1)",
+        "fill-outline-color": "rgba(10, 10, 10, 0.05)"
+      }
+    },
+    {
+      "id": "NFEPA rivers-Not Defined",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "rivers_nfepa",
+      "filter": ["all", ["==", "NAME", "Not Defined"]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-outline-color": "rgba(6, 6, 6, 1)",
+        "fill-color": "rgba(115, 0, 0, 1)"
+      }
+    },
+    {
+      "id": "NFEPA rivers-FEPA",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "rivers_nfepa",
+      "filter": ["all", ["==", "NAME", "FEPA"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(255, 245, 240, 1)"}
+    },
+    {
+      "id": "NFEPA rivers-FishCorrid",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "rivers_nfepa",
+      "filter": ["all", ["==", "NAME", "FishCorrid"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(255, 202, 182, 1)"}
+    },
+    {
+      "id": "NFEPA rivers-FishFSA",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "rivers_nfepa",
+      "filter": ["all", ["==", "NAME", "FishFSA"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(255, 137, 103, 1)"}
+    },
+    {
+      "id": "NFEPA rivers-Phase2FEPA",
+      "type": "fill",
+      "source": "Fbis",
+      "source-layer": "rivers_nfepa",
+      "filter": ["all", ["==", "NAME", "Phase2FEPA"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(255, 59, 26, 1)"}
+    }
+  ],
+  "id": "dcuw659g3"
+}

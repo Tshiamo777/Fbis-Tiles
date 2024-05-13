@@ -1,0 +1,20 @@
+{
+  "version": 8,
+  "name": "Empty Style",
+  "metadata": {"maputnik:renderer": "mbgljs"},
+  "sources": {
+    "Fbis": {"type": "vector", "url": "http://localhost:8004/services/fbis"}
+  },
+  "sprite": "",
+  "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "Quaternary Catchments",
+      "type": "line",
+      "source": "Fbis",
+      "source-layer": "quaternary_catchments",
+      "paint": {"line-color": "rgba(214, 116, 255, 1)"}
+    }
+  ],
+  "id": "joxp5epg9"
+}
